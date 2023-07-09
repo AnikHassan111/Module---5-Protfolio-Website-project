@@ -192,8 +192,9 @@ footer {
 
 .footer_container small {
     color: #474747;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
     display: inline-block;
+
 }
 
 .footer_container h2 {
