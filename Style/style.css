@@ -32,10 +32,12 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
-.section_description{
+
+.section_description {
     color: #757575;
     text-align: center;
 }
+
 /* Nav Related style */
 
 nav {
@@ -110,40 +112,126 @@ header {
 }
 
 /* Main Section Style */
-main{
+main {
     width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+    margin-top: 130px;
+}
+
 /* About Section Style */
 
 .about {
-    
+
     background-color: #FFF8F3;
     margin: 130px 0;
     padding: 131px 157px;
     border-radius: 10px;
 }
-.about_info_container{
+
+.about_info_container {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
-.about_info{
+
+.about_info {
     text-align: center;
     /* width: 118px; */
     display: inline-block;
 }
-.what_i_do_section_descritption_self{
+
+/* Skill Related style */
+.what_i_do_section_descritption_self {
     padding: 0px 150px;
 }
-.skill{
+
+.skill {
     width: 267px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background-color: white;
-    padding: 50px 30px;
-
+    padding: 30px 30px;
 }
-.skill_section_container{
+
+.skill_description {
+    color: #757575;
+}
+
+.skill_section_container {
     display: flex;
     gap: 30px;
     margin-top: 50px;
+}
+
+/* Resume Section */
+.resume_container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume_btn {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer_container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    gap: 150px;
+}
+
+.footer_container small {
+    color: #474747;
+    /* margin-bottom: 30px; */
+    display: inline-block;
+}
+
+.footer_container h2 {
+    color: #181818;
+    font-size: 35px;
+}
+
+.footer_icon {
+    display: flex;
+    gap: 24px;
+}
+
+.footer_container .colume2 h2 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer_container input[type="text"] {
+    width: 400px;
+    padding: 18px 30px;
+    border: 0;
+    outline: 0;
+    margin-bottom:24px ;
+}
+.footer_container input[type="email"] {
+    width: 400px;
+    padding: 18px 30px;
+    border: 0;
+    outline: 0;
+    margin-bottom:24px ;
+}
+.footer_container textarea{
+    width: 400px;
+    height: 130px;
+    padding: 18px 30px;
+    border: 0;
+    outline: 0;
+    margin-bottom:24px ;
+    display: block;
 }
