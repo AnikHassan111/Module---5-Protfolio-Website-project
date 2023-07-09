@@ -219,6 +219,7 @@ footer {
     border: 0;
     outline: 0;
     margin-bottom:24px ;
+    border-radius: 5px;
 }
 .footer_container input[type="email"] {
     width: 400px;
@@ -226,6 +227,7 @@ footer {
     border: 0;
     outline: 0;
     margin-bottom:24px ;
+    border-radius: 5px;
 }
 .footer_container textarea{
     width: 400px;
@@ -235,4 +237,5 @@ footer {
     outline: 0;
     margin-bottom:24px ;
     display: block;
+    border-radius: 5px;
 }
